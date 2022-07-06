@@ -5,7 +5,7 @@ const PORT = 3000;
 const HOST = '127.0.0.1';
 
 app.get('/', (req,res) => {
-	res.send('Hello World');
+	res.send('Hello Everyone ! ');
 });
 
 app.listen(PORT, () => {
